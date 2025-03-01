@@ -7,3 +7,13 @@ module "three_tier_app" {
   db_admin_username   = var.db_admin_username
   db_admin_password   = var.db_admin_password
 }
+/*module "three_tier_app_count" {
+  source              = "./modulethreetierapp_count/"
+  resource_group_name = var.three_tier_app_count_resource_group_name
+  location            = var.three_tier_app_count_location
+  admin_username      = var.administrator_login
+  admin_password      = var.administrator_login_password
+  db_admin_username   = var.db_admin_username
+  db_admin_password   = var.db_admin_password
+  count               = var.instance_count
+}*/
