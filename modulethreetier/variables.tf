@@ -1,3 +1,21 @@
+variable "subscription_id"{
+  type=string
+}
+variable "client_id"{
+  type=string
+}
+variable "client_secret"{
+  type=string
+}
+/*variable "client_secret" {
+  description = "Client secret for authentication"
+  type        = string
+  sensitive   = true
+}*/
+
+variable "tenant_id"{
+  type=string
+}
 variable "resource_group_name" {
   description = "The name of the resource group"
   type        = string
