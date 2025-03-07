@@ -1,3 +1,7 @@
+client_id = "myclientId"
+tenant_id = "myTenantId"
+client_secret = "MyclientSecret"
+subscription_id ="MySubscriptionId"
 resource_group_name="Mcitterraformrg"
 location="Canada Central"
 vnet_name="myVNet"
