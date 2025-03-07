@@ -4,9 +4,15 @@ variable "subscription_id"{
 variable "client_id"{
   type=string
 }
-variable "client_secret"{
+/*variable "client_secret"{
   type=string
+}*/
+variable "client_secret" {
+  description = "Client secret for authentication"
+  type        = string
+  sensitive   = true
 }
+
 variable "tenant_id"{
   type=string
 }
